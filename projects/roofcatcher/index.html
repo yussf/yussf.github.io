@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+
+    <meta name="author" content="Youssef Doubli">
+    <meta name="description" content="Check the github repo here
+For all the poor and desperate souls, looking for student housing in Paris.
+This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
+Current support:
+ Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the .">
+    <meta name="keywords" content="blog,developer,personal">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="RoofCatcher"/>
+<meta name="twitter:description" content="Check the github repo here
+For all the poor and desperate souls, looking for student housing in Paris.
+This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
+Current support:
+ Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the ."/>
+
+    <meta property="og:title" content="RoofCatcher" />
+<meta property="og:description" content="Check the github repo here
+For all the poor and desperate souls, looking for student housing in Paris.
+This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
+Current support:
+ Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://youssefdoubli.xyz/projects/roofcatcher/" />
+<meta property="article:published_time" content="2014-09-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-09-28T00:00:00+00:00" />
+
+
+    
+      <base href="https://youssefdoubli.xyz/projects/roofcatcher/">
+    
+    <title>
+  RoofCatcher · Youssef&#39;s blog
+</title>
+
+    
+      <link rel="canonical" href="https://youssefdoubli.xyz/projects/roofcatcher/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://youssefdoubli.xyz/css/coder.min.642402b391a3e91d518b060a2b26d4125b966a884cfc8d845e3835948b97480e.css" integrity="sha256-ZCQCs5Gj6R1RiwYKKybUEluWaohM/I2EXjg1lIuXSA4=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://youssefdoubli.xyz/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://youssefdoubli.xyz/images/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.75.1" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light"
+        onload=" twemoji.parse(document.body); "
+  >
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://youssefdoubli.xyz/">
+      Youssef&#39;s blog
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://www.linkedin.com/in/youssef-doubli">Resume</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://youssefdoubli.xyz/projects/">Projects</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://youssefdoubli.xyz/contact/">Contact me</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>RoofCatcher</h1>
+    </header>
+
+    <p><a href="https://github.com/yussf/roofCatcher">Check the github repo here</a></p>
+<p>For all the poor and desperate souls, looking for student housing in Paris.</p>
+<p>This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ.
+You can write you own handlers for other residencies.</p>
+<p>Current support:</p>
+<ul>
+<li>Residencies :
+<ul>
+<li>Arpej</li>
+<li>CROUS</li>
+</ul>
+</li>
+<li>Alerts :
+<ul>
+<li>FB Messenger API</li>
+<li>Email alerts soon.</li>
+</ul>
+</li>
+</ul>
+<p>Make sure to edit the values in the .env file with your own:</p>
+<ul>
+<li>SECRET_TOKEN : This is the page secret token generated on your facebook app</li>
+<li>VERIFY_TOKEN : The value to verify your webhook the first time.</li>
+<li>RECIPIENT_PSID : The id of the alerts recipient.</li>
+<li>PORT : Port of the web server (when varifying webhooks)</li>
+</ul>
+<p>(The variables above are only needed if you want to receive the alerts on FB Messenger)</p>
+<ul>
+<li>INTERVAL : Number of minutes at which the server triggers another batch of requests.</li>
+</ul>
+<p>I recommend deploying on Heroku for quick results. Add the following buildpack to your deno to run Puppeteer.
+<a href="https://github.com/jontewks/puppeteer-heroku-buildpack">https://github.com/jontewks/puppeteer-heroku-buildpack</a></p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>"And I knew exactly what to do. But in a much more real sense, I had no idea what to do."</p>
+      
+      
+        ©
+        
+          2019 -
+        
+        2020
+         Youssef Doubli 
+      
+      
+      
+        
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+    <script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//analytics.example.com/tracker.js', 'fathom');
+fathom('set', 'siteId', 'ABCDE');
+fathom('trackPageview');
+</script>
+
+
+  </body>
+
+</html>
