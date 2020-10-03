@@ -8,10 +8,10 @@
 
     <meta name="author" content="Youssef Doubli">
     <meta name="description" content="Check the github repo here
-For all the poor and desperate souls, looking for student housing in Paris.
-This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
-Current support:
- Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the .">
+An implementation of a very simple 3D engine.
+This code is mainly based on the tutorial of OneLoneCoder.
+Other useful ressources:
+ Understanding the View Matrix Boundaries and Clipping Libsdl Lazy foo&#39; SDL tutorial  ">
     <meta name="keywords" content="blog,developer,personal">
 
     
@@ -19,34 +19,34 @@ Current support:
     
 
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="RoofCatcher"/>
+<meta name="twitter:title" content="A Simple 3D Engine"/>
 <meta name="twitter:description" content="Check the github repo here
-For all the poor and desperate souls, looking for student housing in Paris.
-This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
-Current support:
- Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the ."/>
+An implementation of a very simple 3D engine.
+This code is mainly based on the tutorial of OneLoneCoder.
+Other useful ressources:
+ Understanding the View Matrix Boundaries and Clipping Libsdl Lazy foo&#39; SDL tutorial  "/>
 
-    <meta property="og:title" content="RoofCatcher" />
+    <meta property="og:title" content="A Simple 3D Engine" />
 <meta property="og:description" content="Check the github repo here
-For all the poor and desperate souls, looking for student housing in Paris.
-This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
-Current support:
- Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the ." />
+An implementation of a very simple 3D engine.
+This code is mainly based on the tutorial of OneLoneCoder.
+Other useful ressources:
+ Understanding the View Matrix Boundaries and Clipping Libsdl Lazy foo&#39; SDL tutorial  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://youssefdoubli.xyz/projects/roofcatcher/" />
-<meta property="article:published_time" content="2020-09-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-09-15T00:00:00+00:00" />
+<meta property="og:url" content="https://youssefdoubli.xyz/projects/3d-engine/" />
+<meta property="article:published_time" content="2020-01-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-03T00:00:00+00:00" />
 
 
     
-      <base href="https://youssefdoubli.xyz/projects/roofcatcher/">
+      <base href="https://youssefdoubli.xyz/projects/3d-engine/">
     
     <title>
-  RoofCatcher · Youssef&#39;s blog
+  A Simple 3D Engine · Youssef&#39;s blog
 </title>
 
     
-      <link rel="canonical" href="https://youssefdoubli.xyz/projects/roofcatcher/">
+      <link rel="canonical" href="https://youssefdoubli.xyz/projects/3d-engine/">
     
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
@@ -115,41 +115,19 @@ Current support:
   <section class="container page">
   <article>
     <header>
-      <h1>RoofCatcher</h1>
+      <h1>A Simple 3D Engine</h1>
     </header>
 
-    <p><a href="https://github.com/yussf/roofCatcher">Check the github repo here</a></p>
-<p>For all the poor and desperate souls, looking for student housing in Paris.</p>
-<p>This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ.
-You can write you own handlers for other residencies.</p>
-<p>Current support:</p>
-<ul>
-<li>Residencies :
-<ul>
-<li>Arpej</li>
-<li>CROUS</li>
-</ul>
-</li>
-<li>Alerts :
-<ul>
-<li>FB Messenger API</li>
-<li>Email alerts soon.</li>
-</ul>
-</li>
-</ul>
-<p>Make sure to edit the values in the .env file with your own:</p>
-<ul>
-<li>SECRET_TOKEN : This is the page secret token generated on your facebook app</li>
-<li>VERIFY_TOKEN : The value to verify your webhook the first time.</li>
-<li>RECIPIENT_PSID : The id of the alerts recipient.</li>
-<li>PORT : Port of the web server (when varifying webhooks)</li>
-</ul>
-<p>(The variables above are only needed if you want to receive the alerts on FB Messenger)</p>
-<ul>
-<li>INTERVAL : Number of minutes at which the server triggers another batch of requests.</li>
-</ul>
-<p>I recommend deploying on Heroku for quick results. Add the following buildpack to your deno to run Puppeteer.
-<a href="https://github.com/jontewks/puppeteer-heroku-buildpack">https://github.com/jontewks/puppeteer-heroku-buildpack</a></p>
+    <p><a href="https://github.com/yussf/simple_3dengine">Check the github repo here</a></p>
+<p>An implementation of a very simple 3D engine.</p>
+<p>This code is mainly based on the tutorial of <a href="http://www.onelonecoder.com/">OneLoneCoder</a>.</p>
+<p>Other useful ressources:</p>
+<ol>
+<li><a href="https://www.3dgep.com/understanding-the-view-matrix/#Memory_Layout_of_Column-Major_Matrices">Understanding the View Matrix</a></li>
+<li><a href="https://paroj.github.io/gltut/Positioning/Tut05%20Boundaries%20and%20Clipping.html">Boundaries and Clipping</a></li>
+<li><a href="https://www.libsdl.org/">Libsdl</a></li>
+<li><a href="http://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php">Lazy foo' SDL tutorial</a></li>
+</ol>
 
   </article>
 </section>

@@ -6,20 +6,11 @@
     <description>Recent content on Youssef&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://youssefdoubli.xyz/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Image Captioning</title>
-      <link>https://youssefdoubli.xyz/projects/image-captioning/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://youssefdoubli.xyz/projects/image-captioning/</guid>
-      <description>Description As a project during the ML course at Eurecom, I worked on an image captioning model. Using computer vision techniques and NLP, the goal is to generate captions for images and achieve state-of-the-art results.</description>
-    </item>
-    
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://youssefdoubli.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RoofCatcher</title>
       <link>https://youssefdoubli.xyz/projects/roofcatcher/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://youssefdoubli.xyz/projects/roofcatcher/</guid>
       <description>Check the github repo here
@@ -27,6 +18,38 @@ For all the poor and desperate souls, looking for student housing in Paris.
 This is a small toy project that scraps the web and send you alerts whenever new accomodations are availbale in CROUS or ARPEJ. You can write you own handlers for other residencies.
 Current support:
  Residencies :  Arpej CROUS   Alerts :  FB Messenger API Email alerts soon.    Make sure to edit the values in the .</description>
+    </item>
+    
+    <item>
+      <title>Image Captioning</title>
+      <link>https://youssefdoubli.xyz/projects/image-captioning/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://youssefdoubli.xyz/projects/image-captioning/</guid>
+      <description>Description As a project during the ML course at Eurecom, I worked on an image captioning model. Using computer vision techniques and NLP, the goal is to generate captions for images and achieve state-of-the-art results.</description>
+    </item>
+    
+    <item>
+      <title>A Simple 3D Engine</title>
+      <link>https://youssefdoubli.xyz/projects/3d-engine/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://youssefdoubli.xyz/projects/3d-engine/</guid>
+      <description>Check the github repo here
+An implementation of a very simple 3D engine.
+This code is mainly based on the tutorial of OneLoneCoder.
+Other useful ressources:
+ Understanding the View Matrix Boundaries and Clipping Libsdl Lazy foo&#39; SDL tutorial  </description>
+    </item>
+    
+    <item>
+      <title>RoofCatcher</title>
+      <link>https://youssefdoubli.xyz/projects/roofcatcher/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://youssefdoubli.xyz/projects/roofcatcher/</guid>
+      <description>Check the github repo here
+deepCorail Google App Engine deployment of DeepCorail, a project developped during the Ocean Hackathon 2019. DeepCorail is a classifier of deep water corals imagery.</description>
     </item>
     
     <item>
