@@ -1,72 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/projects/</loc>
-    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/projects/roofcatcher/</loc>
-    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/</loc>
-    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/projects/image-captioning/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/projects/3d-engine/</loc>
-    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/projects/deep-corail/</loc>
-    <lastmod>2019-10-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/about-hugo/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/about/</loc>
-  </url>
-  
   <url>
     <loc>https://youssefdoubli.xyz/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/snippets/first/</loc>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/snippets/second/</loc>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/series/</loc>
-  </url>
-  
-  <url>
-    <loc>https://youssefdoubli.xyz/snippets/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://youssefdoubli.xyz/tags/</loc>
+  </url><url>
+    <loc>https://youssefdoubli.xyz/</loc>
   </url>
-  
 </urlset>
